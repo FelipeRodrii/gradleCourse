@@ -6,6 +6,6 @@ plugins {
 application {
     // Define the main class for the application.
     mainClass = 'Project.App'
-    applicationName = "testAplication"
-    executableDir = "TestingFolder"
+    applicationName = "testAplication" // Define o nome dos executaveis do nosso programa quando usarmos o comando Build
+    executableDir = "TestingFolder" // Define o nome da pasta que nossos executaveis ficaram quando usarmos o comando Build
 }
